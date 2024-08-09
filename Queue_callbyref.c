@@ -16,17 +16,9 @@ int main()
     {
       case 1:
             enque(q,&R,&F);
-            /*if(*F==-1)
-            {
-              *F=0;
-            }*/
             break;
        case 2:
             deque(q,&F,&R);
-            /*if((*F)==-1)
-            {
-              *R=-1;
-            }*/
             break;
       case 3:
             dis(q,F,R);
